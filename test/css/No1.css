@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.a1
+{
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;/* 字体 */
+	font-size:32px;/* 字体大小 */
+	font-style:italic;/* 斜体字 */
+	font-weight:700;/* 加粗 */
+	line-height:5em;/* 行高 */
+	word-spacing:4em;/* 字间距 */
+	font-variant:small-caps;/* 大小写 */
+	text-decoration:overline;/* 文本效果（上划线） */
+	float:right;/* 元素浮动 */
+	background:linear-gradient(to right,silver,#3F4C9C);/* 径向渐变 */
+	opacity:0.55;/* 透明度 */
+	cursor:crosshair;/* 鼠标指针类型 */
+	border-radius:1em;/* 圆角 */
+	text-shadow:8px 8px #D73437;/* 阴影 */
+	border:4px dotted #18A316;/* 设置边框 */
+	padding:2px;/* 内边距 */
+	margin:2px;/* 外边距 */
+}
+
+.x .k/* 正常状态隐藏 */
+{
+	left:-999em;
+	position:absolute;
+	z-index:1000;
+}
+
+.x li:hover .k/* 鼠标停留在父元素上显示 */
+{
+	left:auto;
+}
